@@ -1,6 +1,11 @@
 # DESCRIÇÃO
 Criação de uma API para gerenciar uma coleção de livros. As operações seriam adicionar um livro, listar livros, atualizar informações de um livro e remover um livro.
 
+# TOOLS
+**Java 17**
+
+**Spring Boot**
+
 ```mermaid
 classDiagram
     class Livro {
