@@ -1,3 +1,4 @@
+'''mermaid
 classDiagram
     class Livro {
         +String titulo
@@ -6,3 +7,4 @@ classDiagram
         +int anoPublicacao
         +String editora
     }
+'''
