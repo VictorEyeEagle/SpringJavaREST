@@ -1,13 +1,13 @@
 package com.victor.demo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Livro {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -17,5 +17,50 @@ public class Livro {
     private int anoPublicacao;
     private String editora;
 
-    // getters and setters
+
+    public String getTitulo() {
+        return this.titulo;
+    }
+
+    public String getAutor() {
+        return this.autor;
+    }
+
+    public String getIsbn() {
+        return this.isbn;
+    }
+
+    public int getAnoPublicacao() {
+        return this.anoPublicacao;
+    }
+
+    public String getEditora() {
+        return this.editora;
+    }
+
+    
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setAnoPublicacao(int anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+    }
+
+    public void setEditora(String editora) {
+        this.editora = editora;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
