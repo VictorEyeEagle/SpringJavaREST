@@ -1,10 +1,9 @@
-# DESCRIÇÃO
-Criação de uma API para gerenciar uma coleção de livros. As operações seriam adicionar um livro, listar livros, atualizar informações de um livro e remover um livro.
+# DESCRIPTION
+Creation of an API to manage a collection of books. The operations would be to add a book, list books, update information of a book, and remove a book.
 
 # TOOLS
-**Java 17**
-
-**Spring Boot**
+- **Java 17**
+- **Spring Boot**
 
 ```mermaid
 classDiagram
